@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-.top {
+.top-section {
     background-color: #1F2937;
 }
 
@@ -45,7 +45,7 @@ body {
 
 .main-text {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 5px 0;
 }
@@ -70,4 +70,37 @@ body {
 .hero-img {
     height: 300px;
     width: auto;
+}
+
+.info-title {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.info-content {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.item {
+    width: 200px;
+}
+
+.info-content img {
+    height: 200px;
+    width: auto;
+    border-style: solid;
+    border-color: #3882F6;
+    border-radius: 12px;
+}
+
+.subtext {
+    text-align: center;
 }
